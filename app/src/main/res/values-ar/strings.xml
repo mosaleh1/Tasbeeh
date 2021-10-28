@@ -2,4 +2,26 @@
 <resources>
     <string name="app_name">تسبيح</string>
     <string name="total_tasbee7">مجموع التسبيح: </string>
+    <string name="quran">"قران "</string>
+    <string name="tasbih">تسبيح</string>
+    <string name="person_name">مني سيد</string>
+    <string name="canceled">الغاء</string>
+    <string name="change_name">تغير الاسم</string>
+    <string name="clear_all">مسح الجميع</string>
+    <string name="theme">سيمات</string>
+    <string name="confirm">تاكيد</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="title_activity_quran">"قراءن "</string>
+    <string name="prayer_counter">"عداد التسبيح "</string>
+    <string name="color_picker_dialog">اختار اللون</string>
+    <string name="set">موافق</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="question_dialog">هل تريد مسح جميع التسبيحات</string>
+    <string name="primary">اساسي</string>
+    <string name="azkar">الاذكار</string>
+    <string name="share">مشاركه</string>
+    <string name="evening_azkar">اذكار المساء</string>
+    <string name="morning_azkar">اذكار الصباح</string>
+    <string name="count">عدد</string>
 </resources>

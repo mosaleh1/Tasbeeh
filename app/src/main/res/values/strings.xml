@@ -1,4 +1,39 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Tasbee7</string>
     <string name="total_tasbee7">Total Tasbeeh: </string>
+    <string name="quran">Quran</string>
+    <string name="tasbih">Tasbih</string>
+    <string name="person_name">Mona Sayed</string>
+    <string name="canceled">Cancel</string>
+    <string name="change_name">change Name</string>
+    <string name="clear_all">clear all</string>
+    <string name="theme">Theme</string>
+    <string name="contact_us">contact us</string>
+    <string name="navigation_drawer_open" translatable="false">navigation is open</string>
+    <string name="navigation_drawer_close" translatable="false">navigation view is closed</string>
+    <string name="title_activity_quran">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="prayer_counter">Prayer counter</string>
+    <string name="confirm">confirm</string>
+    <string name="color_picker_dialog">ColorPicker Dialog</string>
+    <string name="set">Set</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question_dialog">Do you want to clear all prayers ?</string>
+    <string name="doaa" translatable="false">نسالكم الدعاء الي</string>
+    <string name="person_name_ar" translatable="false">مني سيد</string>
+    <string name="primary">primary</string>
+    <string name="features" translatable="false">features</string>
+    <string name="azkar">Azkar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="aya_demo" translatable="false">اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيم</string>
+    <string name="share">Share</string>
+    <string name="evening_azkar">Evening Azkar</string>
+    <string name="morning_azkar">Morning Azkar</string>
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="count">Count</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>

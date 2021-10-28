@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/tasbeehFragment">
+
+    <fragment
+        android:id="@+id/tasbeehFragment"
+        android:name="com.runcode.tasbee7.Tasbeeh.TasbeehFragment"
+        android:label="fragment_tasbeeh"
+        tools:layout="@layout/fragment_tasbeeh" />
+    <fragment
+        android:id="@+id/quranFragment"
+        android:name="com.runcode.tasbee7.QuranFragment.QuranFullscreenFragment"
+        android:label="fragment_quran"
+        tools:layout="@layout/fragment_quran_fullscreen" />
+    <fragment
+        android:id="@+id/azkarFragment"
+        android:name="com.runcode.tasbee7.Azkar.AzkarFragment"
+        android:label="fragment_azkar"
+        tools:layout="@layout/fragment_azkar" />
+</navigation>
