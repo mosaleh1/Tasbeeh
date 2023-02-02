@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/primary">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/tasbeehFragment"
+                    android:icon="@drawable/ic_tasbih"
+                    android:title="@string/tasbih" />
+
+                <item
+                    android:id="@+id/quranFragment"
+                    android:icon="@drawable/ic_quran"
+                    android:title="@string/quran" />
+                <item
+                    android:id="@+id/azkarFragment"
+                    android:icon="@drawable/ic_morning"
+                    android:title="@string/azkar" />
+
+                <item
+                    android:id="@+id/hadithActivity"
+                    android:icon="@drawable/hadith_icon"
+                    android:title="@string/hadith" />
+<!--                <item-->
+<!--                    android:id="@+id/evening_azkar"-->
+<!--                    android:icon="@drawable/ic_evening"-->
+<!--                    android:title="@string/evening_azkar" />-->
+
+                <item
+                    android:id="@+id/action_support"
+                    android:title="@string/support_us"
+                    android:icon="@drawable/money"
+                    />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

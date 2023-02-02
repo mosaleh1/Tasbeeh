@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_set_prayer_counter"
+        android:icon="@drawable/ic_one"
+        android:title="@string/prayer_counter" />
+
+    <item
+        android:id="@+id/action_change_theme"
+        android:icon="@drawable/ic_paint"
+        android:title="@string/theme" />
+
+    <item
+        android:id="@+id/action_reset_all"
+        android:icon="@drawable/ic_zero"
+        android:title="@string/clear_all" />
+</menu>

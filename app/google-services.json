@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "796770129817",
+    "project_id": "tasbeeh-f8133",
+    "storage_bucket": "tasbeeh-f8133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796770129817:android:c7d11d0286f28a892e6508",
+        "android_client_info": {
+          "package_name": "com.runcode.tasbee7.Sayed_AbdelSalam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796770129817-7210l9d907038t81574jg7c9phj4bt5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6H0v29H53niw5cIVWopNEwJPpJFpUPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796770129817-7210l9d907038t81574jg7c9phj4bt5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

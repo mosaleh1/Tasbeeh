@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+    <string name="person_name_en" translatable="false">@string/person_name</string>
+    <drawable name="person_image">@drawable/person_img</drawable>
+</resources>

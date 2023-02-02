@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEAD9"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_quran"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/QuranImageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rotationY="180"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/yasin1" />
+
+        <TextView
+            android:id="@+id/textView_fixedQuran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/reem_kufi_regular"
+            android:rotationY="180"
+            android:scaleType="fitXY"
+            android:text="صدقه جاريه الي :"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/QuranImageContainer" />
+
+
+        <TextView
+            android:id="@+id/person_name_quranCover"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/reem_kufi_regular"
+            android:gravity="center"
+            android:rotationY="180"
+            android:scaleType="fitXY"
+            android:text="@string/person_name_ar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#D5B36F03"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/textView_fixedQuran"
+            app:layout_constraintStart_toStartOf="@+id/textView_fixedQuran"
+            app:layout_constraintTop_toBottomOf="@+id/textView_fixedQuran" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
